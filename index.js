@@ -28,6 +28,10 @@ fullDateEl.innerHTML = new Date().toDateString();
 
 let dates = "";
 
+//Special Case: If first day of the month is Sunday, need 6 empty spaces
+if (firstDay == -1) {
+    firstDay = 6;
+}
 for (let i = firstDay; i > 0; i--) {
     dates += `<div class="empty"></div>`;
 }
