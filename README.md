@@ -1,2 +1,2 @@
 # Month-Calender
-Practicing my HTML,CSS<JS skills
+Practicing my HTML,CSS,JS skills
